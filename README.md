@@ -1,5 +1,5 @@
 # Machine-Learning-Coursera-Stanford-
 
-By Andrew Ng
+Professor Andrew Ng
 
-Exercises
+Exercises of the course
