@@ -97,14 +97,10 @@ while ~isempty(email_contents)
     %       str2). It will return 1 only if the two strings are equivalent.
     %
 
-    [l]=find(vocabList==str)
-
-
-
-
-
-
-
+    index = find(strcmpi(str, vocabList), 1, 'first');
+    if length(index > 0)
+        word_indices = [word_indices ; index];
+    end
 
     % =============================================================
 
